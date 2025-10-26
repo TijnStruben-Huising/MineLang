@@ -1,0 +1,31 @@
+PLACE
+MOV + .
+MOV + .
+PLACE
+MOV - .
+DO 0 1 2 2 2 2 2 2 2
+
+0
+FLAG
+
+1
+MOV - . 
+WRITE
+WRITE
+WRITE
+WRITE
+WRITE
+WRITE
+WRITE
+WRITE
+
+2
+
+
+
+
+
+
+9
+
+
