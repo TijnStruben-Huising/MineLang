@@ -16,7 +16,7 @@ bash or something like it
 ## Operations
 direction: . . | . + | . - | + . | - . | + - | - + | + + | - -
 int : i64 in hex form
-OP : MOV <direction> | GOTO <int> | DO <int> <int> <int> <int> <int> <int> <int> <int> <int> | FLAG | PLACE | SYSCALL | READ | WRITE | <int>
+OP : MOV \<direction\> | GOTO \<int\> | DO \<int\> \<int\> \<int\> \<int\> \<int\> \<int\> \<int\> \<int\> \<int\> | FLAG | PLACE | SYSCALL | READ | WRITE | \<int\>
 
 Note: SYSCALL not yet implemented
 
@@ -40,5 +40,5 @@ DO:
 
 # Usage
 
-mine <origin file> <output file>
-(will write to a <origin file>.s file too)
+mine \<origin file\> \<output file\>
+(will write to a \<origin file\>.s file too)
